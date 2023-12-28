@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('main');
-});
-Route::get('/shake', function () {
-    return view('shake');
-});
+
+
+Route::get('/', 'App\Http\Controllers\PageController@main' )->name('main');
+Route::get('/shake', 'App\Http\Controllers\PageController@shake' )->name('shake');
+Route::get('/catalog', 'App\Http\Controllers\CatalogController@catalog' )->name('catalog');

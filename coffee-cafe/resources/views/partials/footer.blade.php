@@ -13,7 +13,6 @@
         <li class="mr-10"><a href="">Wishlist</a></li>
         <li class="mr-10"><a href="">Blogs</a></li>
 
-
     </ul>
 
 </header>
