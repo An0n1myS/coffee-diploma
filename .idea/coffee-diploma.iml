@@ -1,7 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/coffee-cafe/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/coffee-cafe/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/coffee-cafe/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/coffee-cafe/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/coffee-cafe/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/coffee-cafe/tests/Unit" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee-cafe/vendor/webmozart/assert" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
