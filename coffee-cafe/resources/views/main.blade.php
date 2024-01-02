@@ -4,12 +4,24 @@
 @section('content')
 
 
-    <div class="info w-full" style="background-image: url('image/sublogo.jpg')">
-        <br>
-        <br>
-        <br>
-        <h2 class="text-white text-xl text-start mt-10 w-5/6 m-auto pb-10">Main</h2>
+    <div class="info w-full">
+        <!-- Slider main container -->
+        <div class="swiper w-100% h-100%">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
 
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
     </div>
     <div class="h-screen bg-neutral-800/95 ">
 
