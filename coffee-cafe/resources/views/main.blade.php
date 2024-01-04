@@ -4,42 +4,53 @@
 @section('content')
 
 
-    <div class="info w-full">
+    <div class="z-0">
         <!-- Slider main container -->
-        <div class="swiper w-11/12 h-screen">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-1
+        <div class="swiper-logo w-100% h-100% overflow-hidden">
+
+            <div class="swiper-wrapper w-full h-full">
+                <div class="swiper-slide ">
+                    <img class="" src="{{asset('/image/slider-1.jpg')}}" alt="">
                 </div>
                 <div class="swiper-slide">
-2
+                    <img src="{{asset('/image/slider-2.jpg')}}" alt="">
                 </div>
                 <div class="swiper-slide">
-3
+                    <img src="{{asset('/image/slider-2.jpg')}}" alt="">
                 </div>
             </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
+
             <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
 
         </div>
     </div>
 
+    <br>
+    <br>
+
     <div class="">
         <!-- Slider main container -->
-        <div class="swiper-products w-11/12 ">
-            <!-- Additional required wrapper -->
-            <div class="swiper-products-wrapper">
+        <div class="swiper w-4/6 ">
+
+            <div class="swiper-wrapper">
                 @foreach($products as $product)
                     <div class="swiper-slide">
-                        {{$product->name}}
+                        <div class="min-w-100% min-h-[180px] max-h-[180px] overflow-hidden border">
+                            <img src="data:image/png;base64,{{ base64_encode($product->image_url) }}" alt="Image">
+                            <div class="">
+
+                            </div>
+                        </div>
+                        <p class="text-">{{$product->name}}</p>
+                        <p>${{$product->price}}</p>
+                        <br>
                     </div>
                 @endforeach
             </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-products-button-prev"></div>
-            <div class="swiper-products-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
 
         </div>
 
@@ -49,20 +60,20 @@
     <br>
     <div class="">
         <!-- Slider main container -->
-        <div class="swiper-new-products w-11/12 ">
+        <div class="swiper w-11/12 ">
             <!-- Additional required wrapper -->
-            <div class="swiper-new-products-wrapper">
+
+            <div class="swiper-wrapper">
+
                 @foreach($new_products as $new_product)
                     <div class="swiper-slide">
-                        {{$product->name}}
+                        {{$new_product->name}}
+                        <img src="data:image/png;base64,{{ base64_encode($new_product->image_url) }}" alt="Image">
 
                     </div>
                 @endforeach
             </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-new-products-button-prev"></div>
-            <div class="swiper-new-products-button-next"></div>
-
+            <div class="swiper-scrollbar"></div>
         </div>
 
     </div>

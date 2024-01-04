@@ -4,7 +4,7 @@
 @section('content')
     <style>
         .empty{
-            height: 25px;
+            height: 500px;
             background: #ef4444;
         }
     </style>
@@ -145,7 +145,7 @@
 
             // Якщо немає кольорів, використовуємо червоний колір
             if (ingredientColors.length === 0) {
-                return '#FF0000';
+                return '#FFFFFF';
             }
 
             // Змішуємо кольори інгредієнтів

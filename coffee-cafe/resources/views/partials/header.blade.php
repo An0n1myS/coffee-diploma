@@ -1,4 +1,4 @@
-<header class="fixed bg-black/60 flex flex-row justify-evenly items-center text-white w-full">
+<header class="fixed bg-black/60 flex flex-row justify-evenly items-center text-white font-medium w-full z-10 pt-3 pb-3">
     <div class="logo ">
         <a href="/"><img src="{{asset('image/logo.jpg')}}" class="" alt=""></a>
     </div>
